@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipient page</title>
+</head>
+<body>
+    <style>
+        body {
+background-color: #DBF9FC;
+}
+        .center {
+          margin: auto;
+          width: 50%;
+          border: 3px solid green;
+          padding: 10px;
+        text-align:center;
+        }
+    </style>
+    <form class="center" action="" method="post">
+        <h1>We are here to donate what you need</h1><br><br><br>
+        <label for="itemname"><b>Item Name:</b></label>
+        <select name="item" id="item">
+            <option value="Food">Food</option>
+              <option value="Clothes">Clothes</option>
+              <option value="Books">Books</option>
+              <option value="Toys">Toys</option>
+              <option value="Electronic Appliances">Electronic Appliances</option>
+        </select><br><br><br><br><br><br><br>
+        <label for="add"><b>Address:</b></label>
+        <textarea name="address" id="add" cols="15"></textarea><br><br><br>
+        <label for="phone"><b>Phone number:</b></label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+        <button type="submit">Submit</submit>
+      </form>
+</body>
+</html>
